@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  backend:
+    image: pranav1483/wobot
+    pull_policy: always
+    ports:
+      - "8000:8000"
